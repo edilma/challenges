@@ -1,5 +1,6 @@
-import { css } from "@emotion/react";
-import Color from "./Colors";
+
+import Color from "./Color.jsx";
+import { useNavigate } from "react-router-dom";
 
 const colors = [{
     id: "100",
@@ -22,12 +23,13 @@ const colors = [{
     name: 'Tart Orange'
   }]
 
-export default function ColorRenderer ({name, hex, id}){
+export default function ColorRenderer (){
 
     return(
-        <div >
-        {colors.map(color=><Color key={id} hex={color.hex} name={color.name}/>)}
-        </div>
+      <>
+      
+        {colors.map(color=> <Color key={color.id} hex={color.hex} name={color.name}/>)}
+        </>
         
     )
 }

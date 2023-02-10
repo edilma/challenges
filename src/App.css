@@ -1,12 +1,12 @@
 
-
-
-article{
-  padding: 32px;
-  font-size: 24px;
-  border-radius: 4px;
-  display: flex;
-  border: auto;  
+.color-square {
+  padding: 20px;
+  font-family: sans-serif;
+  width: 300px;
+  display: inline-block;
+  color: white;
+  padding: 40px;
+  margin: 10px;
 }
 
 div{
