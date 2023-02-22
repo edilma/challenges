@@ -1,0 +1,43 @@
+.page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/*   
+  .darkScreen{
+    background-color: rgb(210, 61, 61);
+  }
+
+.darkMode-button {
+    border: 2px solid white;
+    color: white;
+    background-color: #171717;
+  }
+  
+  .lightMode-button{
+    border: 2px solid #171717;
+    color: #171717;
+    background-color: rgb(215, 239, 226);
+  } */
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .dark-mode {
+    background-color: #171717;
+  }
+  .dark-mode-button {
+    border: 2px solid white;
+    color: white;
+    background-color: #171717;
+  }
+  
+  .light-mode-button {
+    border: 2px solid #171717;
+    color: #171717;
+    background-color: white;
+  }

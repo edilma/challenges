@@ -2,6 +2,7 @@
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './App.css';
 import DarkLightModes from './scenes/DarkLightModes.jsx';
+import FormVal from './scenes/FormVal.jsx';
 import RenderColors from './scenes/RenderColors.jsx';
 
 
@@ -20,6 +21,8 @@ function App() {
       
       <Route path='/colors' element={<RenderColors />}   />
       <Route path='/darkMode' element={<DarkLightModes />}/>
+      <Route path='/form' element={<FormVal/>}/>
+
 
     </Routes>
     </header>
