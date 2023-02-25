@@ -5,6 +5,7 @@ import ColorPicker from './components/ColorPicker.jsx';
 import DarkLightModes from './scenes/DarkLightModes.jsx';
 import DogPicsDisp from './scenes/DogPicsDisp.jsx';
 import FormVal from './scenes/FormVal.jsx';
+import PixelGame from './scenes/PixelGame';
 import RenderColors from './scenes/RenderColors.jsx';
 import ScoreKeeperDisp from './scenes/ScoreKeeperDis.jsx';
 import WindowListener from './scenes/WindowListener.jsx';
@@ -35,6 +36,7 @@ function App() {
       <Route path='/scores' element={<ScoreKeeperDisp />}/>
       <Route path='/event' element={<WindowListener />} />
       <Route path='/change' element={<ColorPicker />}/>
+      <Route path='/game' element={<PixelGame />}/>
     </Routes>
     </header>
   </div>

@@ -1,4 +1,6 @@
-
+html, body {
+  font-family: sans-serif;
+}
 .color-square {
   padding: 20px;
   font-family: sans-serif;
@@ -54,4 +56,16 @@ input[type=submit] {
   width: 500px;
   height:400px;
   object-fit: contain;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  outline: none;
+  border: 2px solid white;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
 }
