@@ -1,18 +1,15 @@
 import { useEffect } from "react"
 
 export default function WindowEvent () {
-    useEffect(()=>{
-        const handleClick = ()=> alert("You click the button")
+  useEffect(() => {
+    const doubleClick = () => alert('mouse pressed')
 
-        window.addEventListener ("buttonClicked", handleClick)
-        
-        return(
-            window.removeEventListener("buttonClicked", handleClick)
-        )
+    window.addEventListener('dblclick', doubleClick)
 
-
-    },[])
-    return (
-      <h2>Window event active</h2>
-    )
-  }
+    return () => window.removeEventListener('dblclick', doubleClick)
+  }, [])
+  return (
+    <h2>Window event is active</h2>
+  )
+}
+//Alert is not working.  Can it be because we get a header from app.js?

@@ -1,6 +1,7 @@
 
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './App.css';
+import ColorPicker from './components/ColorPicker.jsx';
 import DarkLightModes from './scenes/DarkLightModes.jsx';
 import DogPicsDisp from './scenes/DogPicsDisp.jsx';
 import FormVal from './scenes/FormVal.jsx';
@@ -21,7 +22,8 @@ function App() {
         * Dark Mode /darkMode <br/>
         * Validation Form /form<br/>
         * Dog Pics /dogs<br/>
-        * Score Keeper <br/>
+        * Score Keeper /event <br/>
+      * Change Backgroundcolor Page /change <br/>
      
       </p>
     <Routes>
@@ -32,6 +34,7 @@ function App() {
       <Route path='/dogs' element={<DogPicsDisp/>}/>
       <Route path='/scores' element={<ScoreKeeperDisp />}/>
       <Route path='/event' element={<WindowListener />} />
+      <Route path='/change' element={<ColorPicker />}/>
     </Routes>
     </header>
   </div>
