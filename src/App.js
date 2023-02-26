@@ -5,7 +5,7 @@ import ColorPicker from './components/ColorPicker.jsx';
 import DarkLightModes from './scenes/DarkLightModes.jsx';
 import DogPicsDisp from './scenes/DogPicsDisp.jsx';
 import FormVal from './scenes/FormVal.jsx';
-import PixelGame from './scenes/PixelGame';
+import PixelGame from './scenes/PixelGame.jsx';
 import RenderColors from './scenes/RenderColors.jsx';
 import ScoreKeeperDisp from './scenes/ScoreKeeperDis.jsx';
 import WindowListener from './scenes/WindowListener.jsx';
