@@ -2,6 +2,7 @@
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './App.css';
 import ColorPicker from './components/ColorPicker.jsx';
+import PixelArt from './components/PixelArt.jsx';
 import DarkLightModes from './scenes/DarkLightModes.jsx';
 import DogPicsDisp from './scenes/DogPicsDisp.jsx';
 import FormVal from './scenes/FormVal.jsx';
@@ -36,7 +37,7 @@ function App() {
       <Route path='/scores' element={<ScoreKeeperDisp />}/>
       <Route path='/event' element={<WindowListener />} />
       <Route path='/change' element={<ColorPicker />}/>
-      <Route path='/game' element={<PixelGame />}/>
+      <Route path='/game' element={<PixelArt />}/>
     </Routes>
     </header>
   </div>

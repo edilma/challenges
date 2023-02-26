@@ -1,5 +1,5 @@
-import { useContext } from "react"
-import { createContext, useState } from "react"
+
+import { useContext,createContext, useState } from "react"
 
 //1. Create the context that we are going to use
 // to change the playColor in the grid
@@ -19,7 +19,7 @@ function ColorPicker () {
         <h1>Choose a color</h1>
         {colors.map(color => <button 
         key={color} 
-        onClick={setPlayColor(color)}
+        onClick={()=>setPlayColor(color)}
         style={{ backgroundColor: color }} />)}
       </div>
     )
