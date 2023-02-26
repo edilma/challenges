@@ -22,10 +22,13 @@ function App() {
       <p>Links that need to put here:<br/>
         * RenderColors /colors<br/>
         * Dark Mode /darkMode <br/>
-        * Validation Form /form<br/>
+        * Validation Form (fix styling) /form<br/> 
         * Dog Pics /dogs<br/>
         * Score Keeper /event <br/>
-      * Change Backgroundcolor Page /change <br/>
+        * Window Listener (fix pop up alert)
+        * Change Backgroundcolor Page /change <br/>
+        * Pixel Art game - select color <br/>
+
      
       </p>
     <Routes>
