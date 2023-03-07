@@ -3,6 +3,7 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './App.css';
 import ColorPicker from './components/ColorPicker.jsx';
 import PixelArt from './components/PixelArt.jsx';
+import Calulator from './scenes/Calculator.jsx';
 import DarkLightModes from './scenes/DarkLightModes.jsx';
 import DogPicsDisp from './scenes/DogPicsDisp.jsx';
 import FormVal from './scenes/FormVal.jsx';
@@ -28,6 +29,7 @@ function App() {
         * Window Listener (fix pop up alert)
         * Change Backgroundcolor Page /change <br/>
         * Pixel Art game - select color <br/>
+        * Calculator - simple calculator <br/>
 
      
       </p>
@@ -41,6 +43,7 @@ function App() {
       <Route path='/event' element={<WindowListener />} />
       <Route path='/change' element={<ColorPicker />}/>
       <Route path='/game' element={<PixelArt />}/>
+      <Route path='/calculator' element={<Calulator />}/>
     </Routes>
     </header>
   </div>
