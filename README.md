@@ -1,6 +1,6 @@
 # React Code Challenges
 
-This website will showcase some react challenges.
+This website showcases some react challenges.
 
 The website is dynamic and will render a new page when the code is called.  
 
